@@ -1,0 +1,104 @@
+Today's Topics
+======================
+-Variable and It's Scope
+-Data Type
+-Operator
+-Condition 
+-Loop 
+
+
+Variable and It's Scope
+=================================
+Variable : is temp. memory where data can be stored
+
+Scope:
+	-Global Variable
+		-Static Variable	: can be access without object /instance
+		-Instance Variable 	: cann be access with object/instance 
+	-Local Variable		: can be access within function 
+
+	
+Data Type : it's type of container / storage 
+=====================
+There are following types of datatype:
+Primitive 
+	non-decimal
+		-byte	1 byte		byte b =22;
+		-short	2 byte
+		-int	4 byte
+		-long 	8 byte		long l  =111111111111111111111111111l;
+
+		
+	decimal
+		-float	4 byte		float f  =433222.455f	
+		-double	8 byte		double d =44332222.33333344
+
+
+	char	2 byte  char c ='a'
+
+	boolean 	b = true / false 
+
+
+Non-Primitive
+	Array
+	List
+	HashMap 
+	
+
+
+	
+			
+Operator	
+==============
+Arithmetic
+		+
+		-	
+		*
+		/		double d = 85/10=8.5  int n = 85/10 = 8
+		%		85%10 = 5
+
+Conditional 
+	>
+	>=
+	<
+	<=
+	==
+	!=
+
+Logical 
+	&&	-and
+	||	-or 
+
+	if(a>b && a>c)			
+		..
+	else
+		..
+
+
+Assignment:
+	=			a =20
+	+=			a+=10		or  a= a+10
+	-=
+	*=
+		
+Incrment/Decrement
+	++
+	--
+
+	postfix:
+		i++
+		i--
+	prefix
+		++i
+		--i
+
+	
+Condition 
+===========
+-if condition 
+-if else 
+-if else if else .... 
+-nested if else 
+
+	
+	
