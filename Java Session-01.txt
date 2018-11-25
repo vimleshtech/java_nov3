@@ -1,0 +1,184 @@
+
+https://github.com/vimleshtech/java_nov3
+
+Today's Topics
+====================
+-Selenium OVerview 
+-Environment Setup 
+
+-Java Application/First Application
+-Java Programing Essentials 
+	-keywords
+	-variable
+	-syntax
+	-data type
+-Input/Output
+-Condition 
+
+Selenium OVerview 
+=======================
+-Selenium is API(application programing interface)/library 
+	Library : is set of funcitons,classess etc.
+
+-Selenium provide interfaces to automate the web application
+	
+-Selnium is open source (free)
+
+-Selenium is plateform independent 	(works on all operating system)
+					-mac
+					-linux
+					-wins 
+					etc.
+
+-Component of selenium:
+	-Selenium IDE 		: is plugin which can attached with Firefox 
+				: for record and play 
+
+	-Selenium WebDriver 	: coding/scripting 
+				-Junit
+				-TestNG
+				-KeyDriven
+				-DataDriven
+				-Hybrid
+				-Maven 
+				-log4j
+				etc.
+			
+					
+	-Selnium RC/Grid	: multi browser testing
+
+	-Selenium AutoIT  	
+
+
+-Language Support:
+	-Java		**
+	-Python		*
+	-C#
+	-Ruby
+	-JS (nodejs)	*
+	etc.
+
+Environment Setup 
+============================
+-JDK
+-Eclipse
+-Selenium API /Jars
+-Web Driver(chrome, firefox etc.)
+
+JDK: java development kit 
+-----------------------------
+Component of JDK:
+	-Javac		: java compiler which convert source(.java) to byte code(.class)
+	-JVM, JIT	: java virtual machine which manage the memory
+				-memory allocation
+				-deallocation
+				-GC 
+			
+			: JIT - just in time which is interpreter 
+				-convert the byte code to native/machine language/binary code
+	-JRE 		: java runtime environment /library 
+
+JDK Version:
+	Java 11
+	Java 10
+		Java 9
+	Java 1.8	/jdk8
+	..
+	..
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+	
+Java Editions:
+--------------
+J2SE	: java 2 standard edition
+		-console / command line	**
+		-standalone application 
+J2EE	: java 2 enterprise edition 
+		-web development 
+J2ME	
+Other Framework:
+	-JSF
+	-Hibernate
+	-Spring
+	etc.
+
+	
+Eclipse:	is editor (IDE-integrated development environment)
+		-JET 
+		-Oxygen
+		-Neon
+			1 2 3
+		-Mars
+			1 2 3 
+		-Juno
+		-etc.
+
+
+Java Application/First Application
+=====================================
+Project's Structure
+	Java24
+		-jre	: java runtime envionment/library 
+		-src	: source code 
+			-package1	: is module / collection of classes / folder
+				class1.java
+				class2.java  
+			-package2
+		
+
+		
+Keywords/Reserved Words
+=========================
+-package		: is reference of current module/folder
+-public			: is access specifier / globally accessiable 
+-class			: is wrapper of data member and function/methods 
+-void			: is return type / no return 
+-static**		: 
+			-single memory allocation 
+			-can be access/call/execute without object
+			
+-main			: reserved function / entry point 
+-String			: is data type for alpha numeric
+-int			: is data type for numeber without decimal 
+-double			: is data type for numebr with decimal 
+-if			: is conditional statemetn 
+-else			: false part of condition 
+etc.
+
+	
+		
+Syntax:
+======================
+//	: single line comment 
+/*
+	: multiple line comment 
+*/
+[]	: array 
+{}	: body of class, function , loop , condition etc.
+()	: function , condition , loop etc.
+;	: termination of statement 
+	
+Note : java is case sensetive 
+
+
+Variable:
+	is temp. memory where data can be stored 
+	
+Declaration of variables:
+	int a;
+	Sting a1, f_name, firstname;
+
+	Incorrect:
+		String 1a;
+		String f name;
+		int a + b;
+
+	
+	
+	String s ="skshgvs";
+	char c ='c';
+		
+
+	
+	
