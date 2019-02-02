@@ -1,0 +1,162 @@
+Recap:
+	WebDriver Methods:
+		get()			: open website/url in browser 
+		getCurrentURL()		: return opened url 
+		getTtile()		: return current page title 
+		getPageSource()		: return page's souce code 
+		quit()			: close instance
+		close()			: close current tab
+		driver.navigate().forward()		: 
+		back()			: 
+		refresh()
+		manage()
+			.implicitWaits()
+			.window()
+				.maximize()
+			.addCookies()
+			.remove/deleteCookies()
+			
+
+
+	Locator:
+
+
+		findElement()		: get ref of one webelement
+		findElements()		: get ref of all matching webelements
+
+		
+			
+		By.id()		*
+		By.name()	*
+		By.xpath()	(
+		By.clssSelector()	
+		By.linkText()	*		findElements()
+		By.partialLinkText() *		findElements()
+		By.tagName()			findElements()
+		By.className()			findElements()
+			
+		
+	WebElement Events:
+		clear()
+		click()
+		sendKeys("string")
+		sendKeys(Keys.ENTER)
+		isVisable() /isDisplay()
+		isEnable()
+		isSelected()
+		
+
+====================
+New Topics
+====================	
+alert/pop handling:
+		try{
+			driver.switchTo().alert()
+		}
+		catch()
+		{
+
+		}
+		String s= driver.switchTo().alert().getText() 
+	
+	driver.switchTo().alert().getText().dismiss() 
+	driver.switchTo().alert().getText().accept()
+	 
+
+windows handling
+	Set<String> s =	driver.windowHandlers()  : return ref of windows	
+
+	driver.switchTo.window(s.get(0))	
+
+	///or
+	for(String w : s)
+	{
+		driver.switchTo.window(w);
+		String title  = driver.getTitle();
+		if(title.startsWith("Technosoft"))
+		{
+			...
+
+		}
+
+	}
+	
+		
+frame handling
+		
+		driver.switchTo.frame("fame1")
+		driver.switchTo.frame(0)
+Actions
+		
+		Actions act = new Actions(driver);
+		WebElement el = driver.findElemnt.....();
+
+
+		act.moveToELement(el).dbClick()
+		act.moveToELement(el).click()
+		act.moveToELement(el).build()	 --focus 
+		act.moveToELement(el).context()  -- 
+		act.dragElemtn..... (el,el2)	
+
+		
+		
+Select		
+		<select>
+				<option text="a" value="1"/>
+
+				<option  value=""> b </option>
+				<option text="" value=""/>
+
+
+				
+		</select>
+
+
+		Select ss = (Select) driver.findElement(By.id('ddl'));
+		ss.selectByIndex(1)	
+		ss.selectByValue("1")	
+
+
+		driver.findElement(By.id('ddl')).sendKeys("b")
+	
+Screenshort 
+	File s= ((TakeScreenShot)driver).getScreenShotAs(OutputType.File);
+
+	FileUtils.copyFile(s,new File("c:/a.png"));
+	
+assert/assertion 
+	Assert.fail("mess");
+	fail("messs");
+
+	
+	Assert.assertEquals(expected,actual);
+
+int a=1;
+long l =1;
+
+l =a;
+
+a =(a)l;
+
+
+Naukri : close all windows except base
+W3Shools
+	-frame
+	-alert
+	-Select
+	-Actions
+
+Take a screen and save it of open page 
+
+
+==Next - Framework ----=====
+
+
+
+			
+
+
+	
+		
+				
+		
