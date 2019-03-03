@@ -1,0 +1,75 @@
+CI -CD
+======
+-Git, GitHub
+-Jenkins
+
+==============
+-RC/Grid
+-PageObjectModel
+-Listner 
+-api testing
+
+
+
+===================
+-Git, GitHub
+Git : is version control tool  (local system / for pc or laptop)
+GitHub : is distribuated version control 
+
+
+Environment Setup of Git and GitHub:
+	-Download and install the git on windows
+		https://git-scm.com/download/win
+		
+	-Create github account
+		https://github.com/
+
+
+
+Git Life Cycle
+====================
+Untracked files and folder (source code, files, folder, data, contents)
+
+	-> git init 		: create local repository
+	-> git add 		: add to stage the files and folder for tracking 
+	-> git commit		: save to local repository 
+
+	-> git push 		: upload or push to server(cloud/github)
+	
+
+
+
+
+git init		
+git status	: show list of files and folder 
+
+git add -A 	: add all files
+or 
+git add filename filename 
+
+git commit -m "message..."
+
+git log 		
+
+
+
+create new repo on/to github
+===========
+git remote add <aliasname> https://github.com/vimleshtech/testproject.git
+git push -u <aliasname> master
+
+
+
+--complete download 
+git clone https://github.com/vimleshtech/testproject.git
+
+--get update 
+git pull https://github.com/vimleshtech/testproject.git
+
+
+
+
+
+
+
+
